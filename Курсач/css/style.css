@@ -1,0 +1,217 @@
+.wrapper {}
+
+.body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/background_main_header.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.foot {
+    width: 100%;
+    height: auto;
+    background-color: #02021A;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    transform: translatez(0);
+    -webkit-animation: character__opacity 0.5s;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.img_char {
+    padding-top: 24%;
+    width: 100%;
+}
+
+
+/* Стили текта */
+
+.title__text {
+    display: flex;
+    justify-content: center;
+    font-family: 'Crimson Pro', serif;
+    color: #C3494B;
+    font-size: 1.9vw;
+    text-align: center;
+    padding: 1%;
+}
+
+.dialoge__char {
+    -webkit-animation: text__opacity 0.8s;
+    font-family: 'Crimson Pro', serif;
+    color: #e4e4e4;
+    font-size: 1.7vw;
+    text-align: center;
+}
+
+.dot {
+    font-size: 1.9vw;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+}
+
+
+/* 
+    -------------------------------------------- 
+                       КНОПКИ
+    -------------------------------------------- 
+*/
+
+.bth__action {
+    width: 7.5%;
+    height: auto;
+    margin: 0% auto;
+}
+
+.dialoge__menu {
+    padding: 2.2%;
+    width: 100%;
+    height: auto;
+}
+
+.bth__dialoge {
+    width: 100%;
+    -webkit-animation: bth__opacity 0.8s;
+    display: flex;
+    margin: 0% auto;
+}
+
+.dialoge {
+    width: 100%;
+    display: block;
+    margin: 0% auto;
+    height: auto;
+}
+
+
+/* Диалоговое меню */
+
+#more {
+    display: none;
+    margin: 0% auto;
+}
+
+.dial_1 {
+    width: 60%;
+    height: auto;
+    margin: 0% auto;
+    -webkit-animation: dialoge__opacity 0.8s;
+    padding: 1%;
+}
+
+.img__in__dialoge {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.text__in__bars {
+    position: absolute;
+    left: auto;
+    right: auto;
+    padding-top: 1.2%;
+    text-align: center;
+    font-size: 1.7vw;
+    text-decoration: none;
+    font-family: 'Crimson Pro', serif;
+    color: #dadada;
+    text-align: center;
+}
+
+.btn__noactive {
+    width: 100%;
+}
+
+.link {
+    width: 100%;
+}
+
+
+/* Адаптив */
+
+@media only screen and (max-width: 450px) {
+    .img_char {
+        width: 90%;
+    }
+    .name {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .dot {
+        height: auto;
+        font-size: 6vw;
+    }
+    .title__text {
+        font-size: 6vw;
+    }
+    .dialoge__char {
+        height: auto;
+        font-size: 5vw;
+    }
+    .dialoge__menu {
+        padding-top: 15%;
+        padding-bottom: 7%;
+    }
+    .bth__action {
+        width: 25%;
+    }
+}
+
+
+/* Анимации */
+
+@-webkit-keyframes character__opacity {
+    0% {
+        padding: 0;
+        opacity: 0;
+        left: 60%;
+    }
+    100% {
+        padding: 0;
+        opacity: 1;
+        left: 38.5%;
+    }
+}
+
+@-webkit-keyframes text__opacity {
+    0% {
+        padding: 0;
+        opacity: 0;
+    }
+    100% {
+        padding: 0;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes bth__opacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes dialoge__opacity {
+    0% {
+        padding: 1%;
+        opacity: 0;
+    }
+    100% {
+        padding: 1%;
+        opacity: 1;
+    }
+}
