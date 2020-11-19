@@ -1,5 +1,3 @@
-.wrapper {}
-
 .body {
     width: 100%;
     display: flex;
@@ -119,15 +117,14 @@
 
 .text__in__bars {
     position: absolute;
-    left: auto;
-    right: auto;
-    padding-top: 1.2%;
-    text-align: center;
+    right: 0;
+    top: 0;
+    left: 0;
+    padding-top: 2.4%;
     font-size: 1.7vw;
     text-decoration: none;
     font-family: 'Crimson Pro', serif;
     color: #dadada;
-    text-align: center;
 }
 
 .btn__noactive {
@@ -136,10 +133,117 @@
 
 .link {
     width: 100%;
+    text-align: center;
 }
 
 
 /* Адаптив */
+
+@media only screen and (max-width: 1440px) {
+    .img_char {
+        width: 100%;
+    }
+    .name {
+        padding-top: 1%;
+        padding-bottom: 2%;
+    }
+    .dot {
+        height: auto;
+        font-size: 3vw;
+    }
+    .title__text {
+        font-size: 3vw;
+    }
+    .dialoge__char {
+        height: auto;
+        font-size: 2vw;
+    }
+    .dialoge__menu {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .bth__action {
+        width: 8%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .img_char {
+        width: 100%;
+    }
+    .name {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .dot {
+        height: auto;
+        font-size: 5vw;
+    }
+    .title__text {
+        font-size: 5vw;
+    }
+    .dialoge__char {
+        height: auto;
+        font-size: 4vw;
+    }
+    .dialoge__menu {
+        padding-top: 15%;
+        padding-bottom: 17%;
+    }
+    .bth__action {
+        width: 20%;
+    }
+    .dialoge {
+        width: 90%;
+    }
+    .dial_1 {
+        width: 100%;
+    }
+    .text__in__bars {
+        padding-top: 0.5%;
+        font-size: 5vw;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .img_char {
+        width: 100%;
+    }
+    .name {
+        padding-top: 2%;
+        padding-bottom: 5%;
+    }
+    .dot {
+        height: auto;
+        font-size: 5vw;
+    }
+    .title__text {
+        font-size: 5vw;
+    }
+    .dialoge__char {
+        margin: 0% auto;
+        width: 95%;
+        height: auto;
+        font-size: 4vw;
+    }
+    .dialoge__menu {
+        padding-top: 8%;
+        padding-bottom: 10%;
+    }
+    .bth__action {
+        width: 15%;
+    }
+    .dialoge {
+        width: 90%;
+    }
+    .dial_1 {
+        width: 100%;
+    }
+    .text__in__bars {
+        padding-top: 1%;
+        font-size: 4.5vw;
+    }
+}
 
 @media only screen and (max-width: 450px) {
     .img_char {
@@ -157,6 +261,8 @@
         font-size: 6vw;
     }
     .dialoge__char {
+        margin: 0% auto;
+        width: 98%;
         height: auto;
         font-size: 5vw;
     }
@@ -166,6 +272,16 @@
     }
     .bth__action {
         width: 25%;
+    }
+    .dialoge {
+        width: 97%;
+    }
+    .dial_1 {
+        width: 100%;
+    }
+    .text__in__bars {
+        padding-top: 0.5%;
+        font-size: 5vw;
     }
 }
 
