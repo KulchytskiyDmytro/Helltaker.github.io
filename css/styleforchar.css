@@ -164,7 +164,9 @@
     width: 27%;
 }
 
-.Modeus {}
+.Modeus {
+    width: 25%;
+}
 
 .Modeus__text {
     width: 70%;
@@ -179,7 +181,7 @@
 }
 
 .Jud {
-    width: 55%;
+    width: 45%;
 }
 
 .Jud__text {
@@ -188,6 +190,30 @@
 
 .Jud__text__img {
     width: 29%;
+}
+
+.Az {
+    width: 25%;
+}
+
+.Az__text {
+    width: 70%;
+}
+
+.Az__text__img {
+    width: 29%;
+}
+
+.Z {
+    width: 33%;
+}
+
+.Z__text {
+    width: 65%;
+}
+
+.Z__text__img {
+    width: 34%;
 }
 
 
