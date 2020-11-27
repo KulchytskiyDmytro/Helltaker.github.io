@@ -101,6 +101,17 @@
     justify-content: center;
 }
 
+.char__door {
+    left: 1%;
+    top: 3%;
+    position: absolute;
+    opacity: 0.3;
+}
+
+.char__door:hover {
+    opacity: 1;
+}
+
 
 /* Стили для каждой страницы */
 

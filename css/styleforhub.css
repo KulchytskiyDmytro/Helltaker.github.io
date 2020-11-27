@@ -195,5 +195,16 @@
 
 .footer {
     width: 100%;
+    height: auto;
     background-color: #02021A;
+}
+
+.footer__door {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+
+.hub__door {
+    width: 100%;
 }
