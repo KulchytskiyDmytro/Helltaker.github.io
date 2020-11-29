@@ -95,17 +95,21 @@
     -webkit-animation: character__opacity 0.5s;
     height: auto;
     position: absolute;
-    left: 38.5%;
     bottom: 0;
     display: flex;
     justify-content: center;
 }
 
 .char__door {
+    width: 4%;
     left: 1%;
     top: 3%;
     position: absolute;
     opacity: 0.3;
+}
+
+.exit__door {
+    width: 100%;
 }
 
 .char__door:hover {
@@ -187,6 +191,10 @@
     width: 29%;
 }
 
+.Pand {
+    width: 27%;
+}
+
 .img_char {
     width: 100%;
 }
@@ -260,12 +268,10 @@
     0% {
         padding: 0;
         opacity: 0;
-        left: 60%;
     }
     100% {
         padding: 0;
         opacity: 1;
-        left: 38.5%;
     }
 }
 
