@@ -197,11 +197,13 @@
     width: 100%;
     height: auto;
     background-color: #02021A;
+    display: flex;
+    justify-content: center;
 }
 
 .footer__door {
-    display: flex;
-    justify-content: center;
+    width: 10%;
+    margin: auto 0;
     padding: 1%;
 }
 

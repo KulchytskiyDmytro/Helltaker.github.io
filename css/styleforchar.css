@@ -48,10 +48,15 @@
 }
 
 .text__block {
+    border-radius: 15px 15px 0 0;
     display: flex;
     margin: 0% auto;
     width: 60%;
     background-color: #88888828;
+    -webkit-border-radius: 15px 15px 0 0;
+    -moz-border-radius: 15px 15px 0 0;
+    -ms-border-radius: 15px 15px 0 0;
+    -o-border-radius: 15px 15px 0 0;
 }
 
 .text__block__top {
