@@ -28,13 +28,13 @@
 }
 
 .character {
-    position: relative;
     padding: 0% 2% 1% 2%;
     width: 20%;
 }
 
 .down__case,
 .up__case {
+    width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -134,42 +134,19 @@
 }
 
 @media only screen and (max-width: 450px) {
-    .img_char {
+    .logo {
         width: 90%;
     }
-    .name {
-        padding-top: 5%;
-        padding-bottom: 5%;
+    .character {
+        width: 50%;
     }
-    .dot {
-        height: auto;
-        font-size: 6vw;
-    }
-    .title__text {
-        font-size: 6vw;
-    }
-    .dialoge__char {
-        margin: 0% auto;
-        width: 98%;
-        height: auto;
-        font-size: 5vw;
-    }
-    .dialoge__menu {
-        padding-top: 15%;
-        padding-bottom: 7%;
-    }
-    .bth__action {
-        width: 25%;
-    }
-    .dialoge {
-        width: 97%;
-    }
-    .dial_1 {
+    .up__case {
         width: 100%;
+        height: auto;
     }
-    .text__in__bars {
-        padding-top: 0.5%;
-        font-size: 5vw;
+    .down__case {
+        width: 100%;
+        height: auto;
     }
 }
 
