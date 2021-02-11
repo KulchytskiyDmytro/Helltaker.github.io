@@ -9,6 +9,5 @@ function readMore() {
     } else {
         more.style.display = "flex";
         bth.style.display = "none";
-
     }
 }
