@@ -70,12 +70,6 @@
     padding: 3%;
 }
 
-.image__text {
-    display: flex;
-    width: 30%;
-    height: auto;
-}
-
 .igmfortetx {
     position: relative;
     width: 100%;
@@ -128,72 +122,24 @@
     width: 25%;
 }
 
-.LH__text {
-    width: 69%;
-}
-
-.LH__text__img {
-    width: 30%;
-}
-
 .Beel {
     width: 35%;
-}
-
-.Beel__text {
-    width: 60%;
-}
-
-.Beel__text__img {
-    width: 40%;
 }
 
 .Jus {
     width: 28%;
 }
 
-.Jus__text {
-    width: 69%;
-}
-
-.Jus__text__img {
-    width: 30%;
-}
-
 .Cer {
     width: 50%;
-}
-
-.Cer__text {
-    width: 78%;
-}
-
-.Cer__text__img {
-    width: 20%;
 }
 
 .Malina {
     width: 25%;
 }
 
-.Malina__text {
-    width: 70%;
-}
-
-.Malina__text__img {
-    width: 27%;
-}
-
 .Modeus {
     width: 25%;
-}
-
-.Modeus__text {
-    width: 70%;
-}
-
-.Modeus__text__img {
-    width: 29%;
 }
 
 .Pand {
@@ -208,36 +154,12 @@
     width: 45%;
 }
 
-.Jud__text {
-    width: 70%;
-}
-
-.Jud__text__img {
-    width: 29%;
-}
-
 .Az {
     width: 25%;
 }
 
-.Az__text {
-    width: 70%;
-}
-
-.Az__text__img {
-    width: 29%;
-}
-
 .Z {
     width: 33%;
-}
-
-.Z__text {
-    width: 65%;
-}
-
-.Z__text__img {
-    width: 34%;
 }
 
 
