@@ -21,8 +21,9 @@
     width: 100%;
     position: relative;
     display: flex;
-    justify-content: center;
 }
+
+.content .image {}
 
 
 /* Стили текта */
@@ -96,7 +97,11 @@
     position: absolute;
     bottom: 0;
     display: flex;
-    justify-content: center;
+    z-index: 100;
+    margin: auto;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
 
 .char__door {
@@ -195,10 +200,18 @@
     0% {
         padding: 0;
         opacity: 0;
+        margin: auto;
+        left: 300%;
+        bottom: 0;
+        right: 0;
     }
     100% {
         padding: 0;
         opacity: 1;
+        margin: auto;
+        left: 0;
+        bottom: 0;
+        right: 0;
     }
 }
 
