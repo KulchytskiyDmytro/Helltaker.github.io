@@ -2,7 +2,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    background-image: url(../images/background_main_header.png);
+    background-image: url(../icons/background_main_header.png);
     background-repeat: no-repeat;
     background-position: center;
 }
