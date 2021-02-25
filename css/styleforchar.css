@@ -23,6 +23,10 @@
     display: flex;
 }
 
+.image__text {
+    width: 35%;
+}
+
 
 /* Стили текта */
 

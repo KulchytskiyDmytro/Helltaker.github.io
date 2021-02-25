@@ -98,10 +98,14 @@
 }
 
 .back__text__hover:hover .text__hover {
-    /* Фиксит потерю качества при уменьшении*/
+    /*Фикситпотерюкачестваприуменьшении*/
     transform: translatez(0);
     display: block;
     background-color: rgba(2, 2, 26, 0.5);
+    -webkit-transform: translatez(0);
+    -moz-transform: translatez(0);
+    -ms-transform: translatez(0);
+    -o-transform: translatez(0);
 }
 
 .name__char {
