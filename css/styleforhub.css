@@ -27,45 +27,24 @@
 .content {
     width: 70%;
     height: auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .character {
     display: flex;
-    padding: 0% 2% 1% 2%;
+    padding: 2% 2% 2% 2%;
     width: 20%;
-}
-
-.down__case,
-.up__case {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.up__case {
-    padding: 4% 4% 3% 4%;
-}
-
-.down__case {
-    padding: 0% 4% 4% 4%;
-}
-
-.up__case img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-.down__case img {
-    display: block;
-    width: 100%;
-    height: auto;
 }
 
 .back__text__hover {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     position: relative;
     overflow: hidden;
+    width: 100%;
+}
+
+.img {
     width: 100%;
 }
 
